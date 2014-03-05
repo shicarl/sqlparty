@@ -1,0 +1,118 @@
+body {
+        padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+        position: relative;
+        height:100%;
+      }
+      
+.pindent {
+    text-indent: 40px;
+}
+
+.comments-link {
+    color: #757575;
+    line-height: 1.84615;
+    margin-bottom: 1.2em;
+}
+
+.comments-link a {
+    color: #757575;
+}
+
+.more {
+    font-size:0.9em;
+    font-style:italic;
+}
+
+.dailyanswer {
+    border-top:2px solid #E3E3E3;
+    padding-top:10px;
+    margin-top:10px;
+}
+
+.entry-content {
+    margin-top: 10px;
+}
+
+.leftsidebarnav {
+    border-right:1px solid  #E3E3E3;
+    padding-right:5px;
+}
+
+.partysidebar {
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    padding: 0;
+}
+.partysidebar > li > a {
+    border: 1px solid #E5E5E5;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+}
+.partysidebar > li:first-child > a {
+    border-radius: 6px 6px 0 0;
+}
+.partysidebar > li:last-child > a {
+    border-radius: 0 0 6px 6px;
+}
+.partysidebar > .active > a {
+    border: 0 none;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+    padding: 9px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+.partysidebar .icon-chevron-right {
+    float: right;
+    margin-right: -6px;
+    margin-top: 2px;
+    opacity: 0.25;
+}
+.partysidebar > li > a:hover {
+    background-color: #F5F5F5;
+}
+.partysidebar a:hover .icon-chevron-right {
+    opacity: 0.5;
+}
+.partysidebar .active .icon-chevron-right, .partysidebar .active a:hover .icon-chevron-right {
+    background-image: url("/wp-content/themes/party/img/glyphicons-halflings-white.png");
+    opacity: 1;
+}
+.partysidebar.affix {
+    top: 110px;
+}
+.partysidebar.affix-top {
+    top: 110px;
+    position: absolute;
+}
+.partysidebar.affix-bottom {
+    bottom: 270px;
+    position: absolute;
+    top: auto;
+}
+
+.partysidebar > li > a {
+}
+
+#respond form textarea {
+    -moz-box-sizing: border-box;
+    font-size: 0.857143rem;
+    line-height: 1.71429;
+    padding: 0.714286rem;
+    width: 100%;
+}
+
+.container:before, .container:after {
+    content: normal;
+    display: table;
+    line-height: 0;
+}
+
+
+
+section {
+    padding: 0px 10px 0px 10px;
+}
+
